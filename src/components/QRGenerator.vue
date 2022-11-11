@@ -8,11 +8,20 @@ const qr = reactive({
   url: '',
   svg_output: '',
   url_input: '',
-  url_input_timeout: null
+  url_input_timeout: null,
+  color_timeout: null
 });
 const color = ref('#000000');
 
-watch(color, () => generateQr());
+watch(color, () => {
+
+  if(qr.color_timeout) clearTimeout(qr.color_timeout);
+
+  qr.color_timeout = setTimeout(() => {
+    generateQr()
+  }, 250);
+
+});
 const generateQr = () => {
   qr.url = qr.url.trim(); // trim spaces
 
