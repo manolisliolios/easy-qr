@@ -1,6 +1,8 @@
 ![Small Screenshot](https://mliolios.s3.eu-north-1.amazonaws.com/127.0.0.1_5173_(macbook)+(1).png)
 # Easy QR
 
+### [Use the tool here](https://manolisliolios.github.io/easy-qr/)
+
 A simple interface to generate your QR codes with the color of your liking.
 
 ### Installation instructions
