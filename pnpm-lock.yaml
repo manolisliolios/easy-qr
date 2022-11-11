@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@svgdotjs/svg.js': ^3.1.2
   '@vitejs/plugin-vue': ^3.1.2
   autoprefixer: ^10.4.13
   eslint: ^8.22.0
@@ -16,7 +15,6 @@ specifiers:
   vue-router: ^4.1.5
 
 dependencies:
-  '@svgdotjs/svg.js': 3.1.2
   autoprefixer: 10.4.13_postcss@8.4.19
   file-saver: 2.0.5
   pinia: 2.0.23_vue@3.2.45
@@ -129,10 +127,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
-
-  /@svgdotjs/svg.js/3.1.2:
-    resolution: {integrity: sha512-0ZCWTiuRjCXT2SUoVDiu+8DLuRQlkxZbO680Y2QkV7jNsULzJajrx6A3MxA/IBQg6UGV5csgPZ8w7U57hZSK+A==}
-    dev: false
 
   /@vitejs/plugin-vue/3.2.0_vite@3.2.3+vue@3.2.45:
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}

@@ -62,9 +62,7 @@ const debounceSearch = () => {
           <input v-model="qr.url_input" type="text" id="url" class="w-full" @input="debounceSearch" placeholder="https://manolisliolios@github.io/easy-qr">
 
           <div class="h-full ml-2 flex items-center">
-            <input v-model="color" type="text" id="qr-color-val" class="h-auto text-sm w-[120px] bg-gray-50 p-2.5 rounded-lg
-bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
-         focus:ring-gray-800 :focus-visible:ring-gray-800 focus:border-gray-800 block p-2.5" name="qr-color-val"/>
+            <input v-model="color" type="text" id="qr-color-val" class="w-[120px]" name="qr-color-val"/>
 
             <div class="h-[25px] w-[25px] rounded-[50px] overflow-hidden -ml-8">
               <input v-model="color" type="color" id="qr-color" class="h-[200%] p-0 m-0 w-[200%]" style="transform: translate(-25%, -25%)" name="qr-color"/>

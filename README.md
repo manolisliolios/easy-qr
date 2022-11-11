@@ -1,35 +1,15 @@
-# easy-qr
+![Small Screenshot](https://mliolios.s3.eu-north-1.amazonaws.com/127.0.0.1_5173_(macbook)+(1).png)
+# Easy QR
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple interface to generate your QR codes with the color of your liking.
 
-## Recommended IDE Setup
+### Installation instructions
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Install packages running <code>npm install</code>
+- Run for development mode using <code>npm run dev</code>
+- You can build for deployment using <code>npm run build</code>
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Dependencies
+- Uses [qrcode](https://www.npmjs.com/package/qrcode) for the QR rendering.
+- Uses [file-saver](https://www.npmjs.com/package/file-saver) to easily download svg file.
+- Of course tailwindcss, vue3, vite etc.
