@@ -6,7 +6,7 @@
   <footer id="footer" class="text-center mt-16">
 
     <p>
-      Copyright &copy; {{new Date().getFullYear()}}. Created by <a href="https://github.com/manolisliolios" target="_blank" rel="nofollow">Manolis Liolios</a>
+      Created by <a href="https://github.com/manolisliolios" target="_blank" rel="nofollow">Manolis Liolios</a>
     </p>
 
     <p class="text-xs mt-2 pb-6">
